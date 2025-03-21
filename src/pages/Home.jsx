@@ -12,10 +12,10 @@ export function Home() {
                 <span>!</span>
             </div>
             <div className="description">
-                <span>ESTE DETALLE ES PARA TI :)</span>
+                <span>Te amo mi Lunita</span>
             </div>
             <div className="button">
-                <button className="botones">
+                <button id='elboton' className="bg-purple-600 rounded-xl text-[10px] ">
                     <Link to={`/flower`}>CLICK AQUÍ</Link>
                 </button>
             </div>

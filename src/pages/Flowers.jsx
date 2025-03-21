@@ -70,11 +70,11 @@ export function Flowers() {
       <div >
       <div className='fixed  top-35 right-5 z-50'>
       <div className='cursor-pointer rounded-full p-3' onClick={togglePlayPause}>
-        {isPlaying ? <img className='w-9' src="src/assets/pause.svg" alt="" /> : <img className='w-9' 
-        src="src/assets/play.svg" alt="" /> }
+        {isPlaying ? <img className='w-9' src="./src/assets/pause.svg" alt="" /> : <img className='w-9' 
+        src="./src/assets/play.svg" alt="" /> }
       </div>
     </div>
-          <audio className='absolute bottom-0 left-0' ref={audioRef} src="src/assets/sound/Bajoelagua.mp3" ></audio>
+          <audio className='absolute bottom-0 left-0' ref={audioRef} src="./src/assets/sound/Bajoelagua.mp3" ></audio>
           <div id="lyrics" className="text-center text-xl mt-4 absolute top-5 left-2">
             {currentLyric}
           </div>
